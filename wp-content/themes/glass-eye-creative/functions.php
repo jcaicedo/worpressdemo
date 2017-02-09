@@ -35,3 +35,19 @@ function glasseye_scripts(){
 }
 
 add_action('wp_enqueue_scripts','glasseye_scripts');
+
+/* --- Register Widget Areas --- */
+
+function glasseye_widget_init(){
+    register_sidebar(array(
+        'name' => __('Main Sidebar', 'glasseye'),
+        'id' => 'main-sidebar',
+        'description' => __('Widgets added here will appear in all pages using the Two Column Template.', 'glasseye'),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget' => '</section>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>'
+
+    ));
+}
+add_action('widgets_init', 'glasseye_widget_init');
