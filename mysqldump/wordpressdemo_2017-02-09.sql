@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.6.28)
 # Database: wordpressdemo
-# Generation Time: 2017-02-09 13:58:37 +0000
+# Generation Time: 2017-02-09 21:29:17 +0000
 # ************************************************************
 
 
@@ -287,7 +287,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`)
 VALUES
 	(1,2,'_wp_page_template','default'),
 	(2,4,'_edit_last','1'),
-	(3,4,'_edit_lock','1486648474:1'),
+	(3,4,'_edit_lock','1486653317:1'),
 	(4,6,'_edit_last','1'),
 	(5,6,'_edit_lock','1486648340:1'),
 	(6,8,'_edit_last','1'),
@@ -391,7 +391,8 @@ VALUES
 	(115,26,'_menu_item_target',''),
 	(116,26,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
 	(117,26,'_menu_item_xfn',''),
-	(118,26,'_menu_item_url','http://wordpressdemo.dev');
+	(118,26,'_menu_item_url','http://wordpressdemo.dev'),
+	(120,4,'_wp_page_template','page-classes.php');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -441,7 +442,7 @@ VALUES
 	(1,1,'2017-02-08 13:07:48','2017-02-08 13:07:48','Welcome to WordPress. This is your first post. Edit or delete it, then start writing!','Hello world!','','publish','open','open','','hello-world','','','2017-02-08 13:07:48','2017-02-08 13:07:48','',0,'http://wordpressdemo.dev/?p=1',0,'post','',1),
 	(2,1,'2017-02-08 13:07:48','2017-02-08 13:07:48','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://wordpressdemo.dev/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','closed','open','','sample-page','','','2017-02-08 13:07:48','2017-02-08 13:07:48','',0,'http://wordpressdemo.dev/?page_id=2',0,'page','',0),
 	(3,1,'2017-02-08 13:07:54','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2017-02-08 13:07:54','0000-00-00 00:00:00','',0,'http://wordpressdemo.dev/?p=3',0,'post','',0),
-	(4,1,'2017-02-09 13:52:29','2017-02-09 13:52:29','','Classes','','publish','closed','closed','','clasess','','','2017-02-09 13:56:53','2017-02-09 13:56:53','',0,'http://wordpressdemo.dev/?page_id=4',0,'page','',0),
+	(4,1,'2017-02-09 13:52:29','2017-02-09 13:52:29','','Classes','','publish','closed','closed','','clasess','','','2017-02-09 14:38:48','2017-02-09 14:38:48','',0,'http://wordpressdemo.dev/?page_id=4',0,'page','',0),
 	(5,1,'2017-02-09 13:52:29','2017-02-09 13:52:29','','Clasess','','inherit','closed','closed','','4-revision-v1','','','2017-02-09 13:52:29','2017-02-09 13:52:29','',4,'http://wordpressdemo.dev/4-revision-v1/',0,'revision','',0),
 	(6,1,'2017-02-09 13:52:45','2017-02-09 13:52:45','','Events','','publish','closed','closed','','event','','','2017-02-09 13:54:41','2017-02-09 13:54:41','',0,'http://wordpressdemo.dev/?page_id=6',0,'page','',0),
 	(7,1,'2017-02-09 13:52:45','2017-02-09 13:52:45','','Event','','inherit','closed','closed','','6-revision-v1','','','2017-02-09 13:52:45','2017-02-09 13:52:45','',6,'http://wordpressdemo.dev/6-revision-v1/',0,'revision','',0),
@@ -619,7 +620,9 @@ VALUES
 	(16,1,'wp_dashboard_quick_press_last_post_id','3'),
 	(17,1,'managenav-menuscolumnshidden','a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 	(18,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}'),
-	(19,1,'nav_menu_recently_edited','3');
+	(19,1,'nav_menu_recently_edited','3'),
+	(20,1,'closedpostboxes_page','a:0:{}'),
+	(21,1,'metaboxhidden_page','a:6:{i:0;s:12:\"revisionsdiv\";i:1;s:10:\"postcustom\";i:2;s:16:\"commentstatusdiv\";i:3;s:11:\"commentsdiv\";i:4;s:7:\"slugdiv\";i:5;s:9:\"authordiv\";}');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
