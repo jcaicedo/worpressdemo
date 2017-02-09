@@ -1,11 +1,11 @@
 <?php
 
-/* Main Template File*/
+/* Template Name: Two Column (Right) Template*/
      get_header();
  ?>
 
  <div class="main-content-width-wrapper">
-     <div class="index-entry">
+     <div class="two-column-entry">
          <h1><?php echo get_the_title() ?></h1>
 
          <div class="main-content">
@@ -23,6 +23,7 @@
 
          </div>
      </div>
+     <?php get_sidebar('main-sidebar'); ?>
  </div>
 
 <?php get_footer(); ?>
